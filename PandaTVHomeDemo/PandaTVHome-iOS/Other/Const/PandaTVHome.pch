@@ -1,0 +1,18 @@
+//
+//  PandaTVHome.pch
+//  PandaTVHome-iOS
+//
+//  Created by mofeini on 16/12/9.
+//  Copyright © 2016年 com.test.demo. All rights reserved.
+//
+
+#ifndef PandaTVHome_pch
+#define PandaTVHome_pch
+
+#import "XYConst.h"
+#import "UIImage+XYExtension.h"
+
+#define kColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define kAppGlobalColor [UIColor colorWithRed:57/255.0 green:217/255.0 blue:146/255.0 alpha:1.0]
+#define kRandomColor kColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), 1.0)
+#endif /* PandaTVHome_pch */
